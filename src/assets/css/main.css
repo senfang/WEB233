@@ -15,13 +15,14 @@ body{min-width:1200px;}
 ol, ul { list-style: none; }
 img { border: 0;}
 a,a:link,a:visited,a:hover,a:active{ text-decoration:none; color:#000;}
-body{ background: #e8e9eb;}
+body{ background: #e8e9eb;position:relative;}
 .container{max-width: 1200px;width:1200px; margin:0px auto;}
 .topHeader{width:100%;height:37px;background:#000; color:#fff; line-height:37px;}
 .top{height:100%;}
 .top ul{float: right;}
 .top ul li{float:left;}
 .top ul li:not(:last-child){margin-right: 18px;}
+.top a{color:#fff;}
 nav{width:100%;height:100px; background:#fff; line-height: 100%; color:#000;}
 nav .head{height:100%;}
 nav .head .login{width:222px; height:57px; background:red;}
@@ -48,19 +49,9 @@ footer .link ul li a {padding:5px 20px;}
 #banner img{  display: block;  margin: 0 auto;  width: 100%;  height: auto;}
 /*content*/
 #content{width:100%;height:300px; background:#fff;}
-.notice{    height: 40px;
-  border: 1px solid;
-  overflow: hidden;
-  position: relative;}
-.notice span{    display: inline-block;
-  height: 40px;
-  float: left;
-  line-height: 40px;
-  margin-right: 30px;}
-
-.notice ul{    position: absolute;
-  top: 0px;
-  left: 40px;}
+.notice{height: 40px;  border: 1px solid;  overflow: hidden;  position: relative;}
+.notice span{display: inline-block;  height: 40px;  float: left;  line-height: 40px;  margin-right: 30px;}
+.notice ul{ position: absolute;  top: 0px;  left: 40px;}
 .notice ul li{hegiht:40px;line-height: 40px;}
 /*list*/
 #list .listTitle{text-align:center;margin-bottom:20px;}

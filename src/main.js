@@ -4,8 +4,8 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import Element from 'element-ui'
-require('./assets/main.css')
-require('./assets/common.js')
+require('./assets/css/main.css')
+require('./assets/js/common.js')
 Vue.use(Element)
 Vue.config.productionTip = false
 

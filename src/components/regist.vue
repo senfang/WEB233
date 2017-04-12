@@ -1,18 +1,15 @@
 <template>
-  <div class="loginBg">
-    <div class="loginBox">
-      
-    </div>
+  <div class="hello">
+    <h1>{{ msg }}</h1>
   </div>
 </template>
 
 <script>
-import '../assets/css/login.css'
 export default {
   name: 'login',
   data () {
     return {
-      msg: '登录'
+      msg: '注册'
     }
   }
 }
