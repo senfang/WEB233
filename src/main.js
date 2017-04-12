@@ -5,7 +5,7 @@ import App from './App'
 import router from './router'
 import Element from 'element-ui'
 require('./assets/main.css')
-
+require('./assets/common.js')
 Vue.use(Element)
 Vue.config.productionTip = false
 

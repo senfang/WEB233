@@ -17,17 +17,17 @@
     <header>
       <nav>
         <div class="head container">
-          <div class="login"></div>
-          <div class="menu">
-            <ul>
-              <li class="active">首页</li>
-              <li>我要投资</li>
-              <li>我要借款</li>
-              <li>安全保障</li>
-              <li>关于我们</li>
-            </ul>
+          <div class="logo">
+            <img src=""/>
           </div>
-          <div>
+          <ul class="menu">
+            <li class="active"><a>首页</a></li>
+            <li><a>我要投资</a></li>
+            <li><a>我要借款</a></li>
+            <li><a>安全保障</a></li>
+            <li><a>关于我们</a></li>
+          </ul>
+          <div class="option">
             <el-button>登录</el-button>
           </div>
         </div>
