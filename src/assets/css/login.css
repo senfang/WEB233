@@ -17,7 +17,7 @@
 .loginBox .loginBtn {padding-top: 0;}
 .loginBox .loginBtn .is-loading { background: #000!important; }
 .loginBox .loginBtn .el-button { background-color: #38404d; color: #e2af49; text-align: center; font-weight: 600; width: 100%; font-size: 16px; height: 38px; line-height: 38px; padding: 0; border:none; } 
-.loginBox .loginBtn .el-button:hover {border:none;}
+.loginBox .loginBtn .el-button:hover {border:none; background: #414b5c;}
 
 .loginBox .linkToReg { text-align: right; padding-top: 0; color: #666666; }
 .loginBox .linkToReg a { color: #f77e1c; }
